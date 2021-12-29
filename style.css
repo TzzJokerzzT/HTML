@@ -21,11 +21,13 @@
     border: 1px solid black
 }
 
-.header-list {
+#header_list {
     margin-top: 10px;
     list-style: none;
     padding-left: 0;
     background-color: none;
+    text-align: center;
+    color: red  
 }
 
 .header-list__item {
@@ -73,3 +75,4 @@
 .header_main {
     text-align: center;
 }
+
