@@ -1,6 +1,7 @@
 .header {
     text-decoration: underline overline;
-    font-size: 1.5em;   
+    font-size: 1.5em;
+    text-align: center; 
 }
 
 .ch_name {
