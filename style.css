@@ -1,28 +1,32 @@
 * {
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    margin: 1.5px;
 }
-
 html {
     font-family: arial;
+    font-size: 62.5%
 }
 .header {
     text-decoration: underline overline;
-    font-size: 1.5em;
+    font-size: 2.6rem;
     text-align: center; 
 }
 
 .ch_name {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.8em;
-    margin: 0px;
-    padding: 0px;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    margin-top: 0;
 }
 
 .ch_name li {
     color: red;
 }
-
+.ch-name__int {
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .ch-name__int a {
     color: black
 }
@@ -55,7 +59,7 @@ html {
     text-decoration: underline;
     background-color: none;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 3rem;
 }
 
 .header-list__item a::after {
@@ -95,15 +99,4 @@ html {
     height: 100px;
     border: 10px solid blue;
     padding: 20px 30px;
-}
-
-.test-text {
-    padding: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
-    color: blue;
-    font-family: monospace;
-}
-.test-text {
-    row
 }
