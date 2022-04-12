@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+nav {
+    background: linear-gradient(95deg, white, #CC0802 );
+}
+#header img {
+    width: 200px;
+}
+/* END HEADER */
+/* FOOTER */
+footer {
+    background: linear-gradient(95deg, white, #CC0802 );
+}
+#footer a {
+    color: black;
+}
